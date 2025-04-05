@@ -73,3 +73,7 @@ Installation = "docs/INSTALLATION.md"
 #
 # [[tool.portray.mkdocs.nav]]
 # Usage = "docs/usage/"
+
+[build-system]
+requires = ["setuptools>=40.4.3", "wheel"]
+build-backend = "setuptools.build_meta"
